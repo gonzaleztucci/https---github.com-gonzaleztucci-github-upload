@@ -1,0 +1,83 @@
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+/* TABLA */
+table{
+    width: 75%;
+    clear: both; 
+    position: relative;
+    top: 100px;
+    margin: auto;
+
+}
+table, th, td {
+    margin: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+th{
+    background-color: teal;
+    color: whitesmoke;
+}
+td{
+    background-color: whitesmoke;
+    color: teal;
+}
+
+th {
+    text-align: left;
+    height: 40px;
+}
+
+/* BODY */
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    color: rgb(39, 48, 48);
+    background-image: url(./Resources/Images/dot-grid.png);
+        
+}
+
+h1 {
+
+    text-align: center;
+    letter-spacing: 0.1em;
+
+}
+
+main {
+    margin-bottom: 60px;
+}
+
+aside{
+    
+    width: 400px;
+    font-size: 0.8em;
+    border: 3px solid coral;
+    padding:  10px 15px;
+    margin: 0 auto;
+    position: absolute;
+    top:135px;
+    left: 350px;
+}
+
+.foto {
+   margin-top: 50px;   
+   float: left;
+}
+
+
+.codigo {
+    font-family: 'Space Mono', monospace;
+    background-color: azure;
+}

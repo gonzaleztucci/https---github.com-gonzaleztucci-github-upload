@@ -1,0 +1,140 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+
+}
+
+h1,h2,h3,h4,h5 {
+
+    font-family: Helvetica;
+    color: seashell;
+    opacity: 0.9;
+
+}
+a{
+    color: seashell;
+    text-decoration: underline;
+}
+.mainLogo {
+    position: relative;
+    top: 9.5px;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+main {
+    position: relative;
+    top: 69px;
+    margin: 0px;
+}
+header {
+    margin: 0px;
+    height: 69px;
+    width: 100%;
+    display: block;
+    padding-top: auto;
+    padding-bottom: auto;
+    background-color: black;
+    opacity: 0.9;
+    z-index: 20;
+    border-bottom: 1px solid white;
+   
+}
+nav {
+    position: relative;
+    float: right;
+    top:20px;
+    margin: 0;
+
+}
+.menu {
+    display: inline;
+    padding: 1rem;
+}
+.mission {
+    display: flexbox;
+    width: 1200px;
+    height: 700px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat ;
+    background-size: auto;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.mission-text{
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    top:50%;
+}
+
+.featured {
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
+
+.featured img {
+    height: 200px;
+    margin: 0;
+
+}
+.featured h4 {
+    margin-top: 10px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.locations {
+    display: flexbox;
+    height: 500px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat ;
+    background-size: auto;
+    padding: 20px;
+}
+
+.locales {
+
+    display: flex;
+    justify-content: space-around;
+}
+.local {
+    width:300px;
+    background-color: black;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+.contact {
+    height: 200px;
+}
+
+footer {
+    width: 100%;
+    margin: 20px;
+    text-align: left;
+}
+
+ 

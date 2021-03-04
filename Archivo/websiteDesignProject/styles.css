@@ -1,0 +1,190 @@
+/* Universal Styles */
+body{
+    color: #303030;
+}
+
+main{
+    font-family: 'Overpass', sans-serif;
+}
+h1, .TextH1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 45px;
+    line-height: 2;
+}
+
+h2, .TextH2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    line-height: 2;
+}
+h3 {
+
+    font-family: 'Permanent Marker', cursive;
+    font-size: 18px;
+    line-height: 2;
+
+}
+
+
+.menu {
+    display: inline;
+}
+
+.TextH3 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 12px;
+    line-height: 2;
+}
+
+
+
+
+p, .TextP, ul{
+    font-size: 12px;
+    line-height: 2;
+}
+.banner {
+    text-align: center;
+    background-color: #11EEF5;
+    color: white;
+    
+}
+.seccion{
+    display: block;
+    margin: 30px auto;
+    border: 2px solid #1BDEAD;
+    width: 90%;
+    padding: 20px;
+
+}
+.color {
+    border: 1px solid black;
+    float: left;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+    margin: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.Color1{
+    background-color: #10AAEB;
+    color: white;
+
+}
+.Color2 {
+    background-color: #11EEF5;
+    color: white;
+
+
+}
+
+.list{
+    list-style-type: square;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    line-height: 2;
+}
+
+.Color3 {
+    background-color: #1BDEAD;
+
+}
+
+.Color4 {
+    background-color: #11F57B;
+
+}
+
+.Color5 {
+    background-color: #10EB39;
+
+}
+
+.TextBold {
+    font-weight: 700;
+}
+
+.TextItalica {
+    font-style: italic;
+}
+.color-container {
+    display: inline-block;
+
+}
+.font-container{
+    margin-top: 20px;
+    width: 45%;
+    /* background-color: #10AAEB;
+    color: #ffffff; */
+}
+.text-container {
+    width: 45%;
+    height: 250px;
+    float: left;
+    /* background-color: #11EEF5; */
+    margin-right: 30px;
+}
+.text-styles {
+    /* height: 850px; */
+    width: 90%;
+    overflow: auto;
+
+
+}
+
+
+
+nav {
+    font-family: 'Overpass', sans-serif;
+    color: red;
+    width: 100%;
+    background-color: #11F57B;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu{
+    margin-left: 30px;
+    color:white;
+}
+
+.menu a {
+
+    color: #303030;
+
+
+}
+
+.boton {
+    display: inline;
+    color: white;
+    font-size: 15px;
+    padding: 5px 30px;
+    text-align: center;
+    margin: 10px 0px;
+    
+}
+.boton:hover{
+    background-color: #1BDEAD;
+    color: red;
+}
+footer{
+    background-color:#11EEF5;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+
+
+#h2 {
+    position: relative;
+    top: 25px;
+}
+
+
+
